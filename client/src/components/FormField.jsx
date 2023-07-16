@@ -1,6 +1,15 @@
 import React from 'react'
 
-const FormField = ({ labelName, placeholder, name, value, type, handleChange, isSurpriseMe, handleSupriseMe, }) => {
+const FormField = ({
+  labelName,
+  placeholder,
+  name,
+  value,
+  type,
+  handleChange,
+  isSurpriseMe,
+  handleSupriseMe,
+}) => {
   return (
     <div>
       <div className="flex items-center gap-2 mb-2">
